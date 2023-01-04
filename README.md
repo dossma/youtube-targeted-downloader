@@ -45,7 +45,7 @@ The options of the video context is equal; though video format settings are repl
 
 ## Adaptability
 
-Nearly infinite customization possible. 
+Nearly infinite customization possible. If you are a beginner, you can start with modifying values given in the configuration files.-
 
 ## Get started
 
