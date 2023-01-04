@@ -25,6 +25,7 @@ After downloading each youtube content,the unique ID of that one is then saved u
 You run it via `yt-dlp --config-clocation "c:\path\to\the\configfile`
 
 ## Download pattern and filter setup
+### Videos
 - Quality settings are set for getting the best videos but with a highest resolution of 800p (to save disk space).
 - free formats are preferred.
 - Title names which match a certain pattern are downloaded only
@@ -43,10 +44,9 @@ __Example output__:
 - Subtitle file is being downloaded too, if available
 
 ### Audio extractions
-Ins
---audio-format opus/mp3/aac/m4a  # Präferenz-Reihenfolge
-# --audio-format flac/opus/mp3/aac/m4a  # Präferenz-Reihenfolge # High resolution option
---audio-quality 10         # Specify ffmpeg audio quality to use when converting the audio with -x. Insert a value between 0 (best) and 10 (worst) for VBR or a specific bitrate like 128K (default 5)
+The options of the video context is equal; though video format settings are replaced with audio settings: 
+- An order of file formats are set: `opus` format is preferred over `mp3` is preferred over `aac` is preferred over `m4a`
+- The audio quality is set as 5 of 10, while __0__ is best and __10__ is worst quality. This provides decent quality but not extreme (which can be adequate for vocal content such as a podcast or an audio book. Set this value lower in case you require high quality for audiophile music or activate the line below in the configuration file which yields for the high resolution FLAC file format. When choosing quality, think about that higher quality demands also more disk space.
 
 ## Development setup
 
