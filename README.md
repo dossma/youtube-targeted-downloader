@@ -57,7 +57,7 @@ The environment used is
 
 Thank you to its developers.
 
-Download the latest [release](https://github.com/yt-dlp/yt-dlp/releases/) and copy the extracted file it into the folder of your development setup, i.e. `c:\users\username\Anaconda3\` if you have installed the Anaconda package. This folder should be set as an environment variable.
+Download the latest [release](https://github.com/yt-dlp/yt-dlp/releases/) and copy the extracted file into the folder of your development setup, i.e. `c:\users\username\Anaconda3\` if you have installed the Anaconda package.
 
 ## Meta
 
