@@ -14,7 +14,7 @@ You set which channel etc. you target in the file `yt-dlp-channels-audio.txt` or
 
 The program then reads the content from the channels file and downloads all the content according to the specifications set in the configuration file which is explained below.
 
-After downloading each youtube content,the unique ID of that one is then saved under the archive files `yt-dlp-archive-video.txt` or `yt-dlp-archive-audio.txt` respectively.  
+After downloading each youtube content,the unique ID of that one is then saved under the archive files `yt-dlp-archive-video.txt` or `yt-dlp-archive-audio.txt` respectively. So when you run the application agin on the same channel, the downloader skips the content you already downloaded. So for the archiving to work propery, take good care of the archive file.
 
 ## Get started
 
@@ -46,7 +46,7 @@ __Example output__:
 ### Audio extractions
 The options of the video context is equal; though video format settings are replaced with audio settings: 
 - An order of file formats are set: `opus` format is preferred over `mp3` is preferred over `aac` is preferred over `m4a`
-- The audio quality is set as 5 of 10, while __0__ is best and __10__ is worst quality. This provides decent quality but not extreme (which can be adequate for vocal content such as a podcast or an audio book. Set this value lower in case you require high quality for audiophile music or activate the line below in the configuration file which yields for the high resolution FLAC file format. When choosing quality, think about that higher quality demands also more disk space.
+- The audio quality is set as 5 of 10, while 0 is best and 10 is worst quality. This provides decent quality but not extreme (which can be adequate for vocal content such as a podcast or an audio book). Set this value lower in case you require high quality for i.e. an audiophile music experience or activate the line below in the configuration file which yields for the high resolution FLAC file format. When choosing quality, think about that higher quality demands usually more disk space and that the downloads take longer.
 
 ## Development setup
 
