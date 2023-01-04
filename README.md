@@ -29,7 +29,7 @@ You run it via `yt-dlp --config-clocation "c:\path\to\the\configfile"`
 ## Download pattern and filter setup
 ### Videos
 - Quality settings are set for getting the best videos but with a highest resolution of 800p (to save disk space).
-- free formats are preferred.
+- Free formats are preferred.
 - Title names which match a certain pattern are downloaded only
 Here, the title must include two keywords in order to be triggered for downloading: _sleep_ and _meditation_. 
 This is useful to execute a targeted filter towards the title name. In a channel about spirituality for example, you get only content which is about a possible interaction of sleep and meditation.
