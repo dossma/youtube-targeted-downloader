@@ -24,7 +24,7 @@ After downloading each youtube content,the unique ID of that one is then saved u
 2. Insert the youtube content URLs you are targeting into the channels file.
 3. Open the configuration file and set in line 4 the path for where you keep your channels and archive file. After, set the download path in line 6 where you want your downloads to be saved. 
 
-You run it via `yt-dlp --config-clocation "c:\path\to\the\configfile`
+You run it via `yt-dlp --config-clocation "c:\path\to\the\configfile`"
 
 ## Download pattern and filter setup
 ### Videos
