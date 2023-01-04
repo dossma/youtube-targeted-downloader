@@ -26,7 +26,7 @@ After downloading each youtube content, the unique ID of that one is then saved 
 Here, the title must include two keywords in order to be triggered for downloading: _sleep_ and _meditation_. 
 This is useful to execute a targeted filter towards the title name. In a channel about spirituality for example, you get only content which is about a possible interaction of sleep and meditation.
 - Output file names are set to be congruent to windows file name prerequisites.
-- Output file naming pattern is here: title - license-comments-likes-views
+- Output file naming pattern is here: /channel/video/playlist/title - license-comments-likes-views
 
 __Example output__:
 `Why Do We Fall Asleep in Meditation - Questions and Answers with Shunyamurti - NA-51comments-422likes-8408views.webm`
@@ -41,6 +41,11 @@ __Example output__:
 The options of the video context is equal; though video format settings are replaced with audio settings: 
 - An order of file formats are set: `opus` format is preferred over `mp3` is preferred over `aac` is preferred over `m4a`
 - The audio quality is set as 5 of 10, while 0 is best and 10 is worst quality. This provides decent quality but not extreme (which can be adequate for vocal content such as a podcast or an audio book). Set this value lower in case you require high quality for i.e. an audiophile music experience or activate the line below in the configuration file which yields for the high resolution FLAC file format. When choosing quality, think about that higher quality demands usually more disk space and that the downloads take longer.
+- Output file naming pattern is here: /channel/audio/playlist/title - license-comments-likes-views
+
+## Adaptability
+
+Nearly infinite customization possible. 
 
 ## Get started
 
