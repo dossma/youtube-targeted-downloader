@@ -1,7 +1,7 @@
 # youtube-targeted-downloader
 Download (archive) youtube content with specifications.
 
-A setting for videos as well as for audio extractions from videos are provided.
+A setting for __videos__ as well as for __audio extractions__ from videos are provided.
 
 ## Motivation 
 Youtube content has become important to people. You can download videos which are important to you or of which you want to do further research on from your hard disk. Moreover, anytime channels can get closed and the videos won't be available online any longer. Due to that, you can archive videos on your own computer. 
