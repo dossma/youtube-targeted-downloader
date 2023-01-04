@@ -18,14 +18,6 @@ The program then reads the content from the channels file and downloads all the 
 
 After downloading each youtube content, the unique ID of that one is then saved in the archive files `yt-dlp-archive-video.txt` or `yt-dlp-archive-audio.txt` respectively. So when you run the application agin on the same targets, the downloader skips the content you already downloaded. So for the archiving to work propery, keep the archive file and leave it basically untouched.
 
-## Get started
-
-1. Install yt-dlp (see below)
-2. Insert the youtube content URLs you are targeting into the channels file.
-3. Open the configuration file and set in line 4 the path for where you keep your channels and archive file. After, set the download path in line 6 where you want your downloads to be saved. 
-
-You run it via `yt-dlp --config-clocation "c:\path\to\the\configfile"`
-
 ## Download pattern and filter setup
 ### Videos
 - Quality settings are set for getting the best videos but with a highest resolution of 800p (to save disk space).
@@ -49,6 +41,14 @@ __Example output__:
 The options of the video context is equal; though video format settings are replaced with audio settings: 
 - An order of file formats are set: `opus` format is preferred over `mp3` is preferred over `aac` is preferred over `m4a`
 - The audio quality is set as 5 of 10, while 0 is best and 10 is worst quality. This provides decent quality but not extreme (which can be adequate for vocal content such as a podcast or an audio book). Set this value lower in case you require high quality for i.e. an audiophile music experience or activate the line below in the configuration file which yields for the high resolution FLAC file format. When choosing quality, think about that higher quality demands usually more disk space and that the downloads take longer.
+
+## Get started
+
+1. Install yt-dlp (see below)
+2. Insert the youtube content URLs you are targeting into the channels file.
+3. Open the configuration file and set in line 4 the path for where you keep your channels and archive file. After, set the download path in line 6 where you want your downloads to be saved. 
+
+You run it via `yt-dlp --config-clocation "c:\path\to\the\configfile"`
 
 ## Development setup
 
