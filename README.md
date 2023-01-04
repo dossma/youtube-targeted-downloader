@@ -16,7 +16,7 @@ You set which channel etc. you target in the file `yt-dlp-channels-audio.txt` or
 
 The program then reads the content from the channels file and downloads all the content according to the specifications set in the configuration file which is explained below.
 
-After downloading each youtube content, the unique ID of that one is then saved in the archive files `yt-dlp-archive-video.txt` or `yt-dlp-archive-audio.txt` respectively. So when you run the application agin on the same target (i.e. channel), the downloader skips the content you already downloaded. So for the archiving to work propery, keep the archive file and leave it basically untouched.
+After downloading each youtube content, the unique ID of that one is then saved in the archive files `yt-dlp-archive-video.txt` or `yt-dlp-archive-audio.txt` respectively. So when you run the application agin on the same targets, the downloader skips the content you already downloaded. So for the archiving to work propery, keep the archive file and leave it basically untouched.
 
 ## Get started
 
