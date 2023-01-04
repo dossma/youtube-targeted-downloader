@@ -6,10 +6,14 @@ Youtube content has become important to people. Youtube is a company which hosts
 
 ## Usage
 You can specify channels or playlists or singular videos.
+File ... operates on the videos
+File ... extracts the audio from the videos so you end up not with a video but with an audio file. 
 
 ## Procedure
 
+### Videos
 
+### Audio extractions
 
 ## Development setup
 
