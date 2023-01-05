@@ -29,6 +29,7 @@ This is useful to execute a targeted filter towards the title name. In a channel
 - Output file naming pattern is here: /channel/video/playlist/title - license-comments-likes-views
 
 __Example output__:
+
 `Why Do We Fall Asleep in Meditation - Questions and Answers with Shunyamurti - NA-51comments-422likes-8408views.webm`
 
 - Metadata and thumbnail picture are saved.
